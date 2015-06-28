@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char DMViewFoundationVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DMViewFoundation/PublicHeader.h>
 
-
+#import <DMViewFoundation/DMView.h>
+#import <DMViewFoundation/DMViewController.h>

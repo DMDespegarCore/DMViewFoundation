@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C320FD7E1B407A29000569CE /* DMTrackFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD7D1B407A29000569CE /* DMTrackFoundation.framework */; };
 		C3D8EFFD1B4047DB00BF40FF /* DMViewFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D8EFFC1B4047DB00BF40FF /* DMViewFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3D8F0031B4047DB00BF40FF /* DMViewFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D8EFF71B4047DB00BF40FF /* DMViewFoundation.framework */; };
 		C3D8F00A1B4047DB00BF40FF /* DMViewFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8F0091B4047DB00BF40FF /* DMViewFoundationTests.m */; };
+		C3D8F0161B40480800BF40FF /* DMView.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D8F0141B40480800BF40FF /* DMView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D8F0171B40480800BF40FF /* DMView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8F0151B40480800BF40FF /* DMView.m */; };
+		C3D8F0AE1B404A9100BF40FF /* DMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D8F0AC1B404A9100BF40FF /* DMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D8F0AF1B404A9100BF40FF /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D8F0AD1B404A9100BF40FF /* DMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C320FD7D1B407A29000569CE /* DMTrackFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMTrackFoundation.framework; path = "../DMTrackFoundation/build/Debug-iphoneos/DMTrackFoundation.framework"; sourceTree = "<group>"; };
 		C3D8EFF71B4047DB00BF40FF /* DMViewFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMViewFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8EFFB1B4047DB00BF40FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D8EFFC1B4047DB00BF40FF /* DMViewFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewFoundation.h; sourceTree = "<group>"; };
 		C3D8F0021B4047DB00BF40FF /* DMViewFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMViewFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8F0081B4047DB00BF40FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D8F0091B4047DB00BF40FF /* DMViewFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewFoundationTests.m; sourceTree = "<group>"; };
+		C3D8F0141B40480800BF40FF /* DMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMView.h; sourceTree = "<group>"; };
+		C3D8F0151B40480800BF40FF /* DMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMView.m; sourceTree = "<group>"; };
+		C3D8F0AC1B404A9100BF40FF /* DMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
+		C3D8F0AD1B404A9100BF40FF /* DMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320FD7E1B407A29000569CE /* DMTrackFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +64,7 @@
 		C3D8EFED1B4047DB00BF40FF = {
 			isa = PBXGroup;
 			children = (
+				C3D8F0D71B404F1D00BF40FF /* Frameworks */,
 				C3D8EFF91B4047DB00BF40FF /* DMViewFoundation */,
 				C3D8F0061B4047DB00BF40FF /* DMViewFoundationTests */,
 				C3D8EFF81B4047DB00BF40FF /* Products */,
@@ -71,6 +83,8 @@
 		C3D8EFF91B4047DB00BF40FF /* DMViewFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				C3D8F0AB1B404A7700BF40FF /* BaseViewControllers */,
+				C3D8F0131B4047F200BF40FF /* BaseViews */,
 				C3D8EFFC1B4047DB00BF40FF /* DMViewFoundation.h */,
 				C3D8EFFA1B4047DB00BF40FF /* Supporting Files */,
 			);
@@ -102,6 +116,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3D8F0131B4047F200BF40FF /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8F0141B40480800BF40FF /* DMView.h */,
+				C3D8F0151B40480800BF40FF /* DMView.m */,
+			);
+			name = BaseViews;
+			sourceTree = "<group>";
+		};
+		C3D8F0AB1B404A7700BF40FF /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3D8F0AC1B404A9100BF40FF /* DMViewController.h */,
+				C3D8F0AD1B404A9100BF40FF /* DMViewController.m */,
+			);
+			name = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		C3D8F0D71B404F1D00BF40FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C320FD7D1B407A29000569CE /* DMTrackFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D8EFFD1B4047DB00BF40FF /* DMViewFoundation.h in Headers */,
+				C3D8F0161B40480800BF40FF /* DMView.h in Headers */,
+				C3D8F0AE1B404A9100BF40FF /* DMViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D8F0171B40480800BF40FF /* DMView.m in Sources */,
+				C3D8F0AF1B404A9100BF40FF /* DMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +370,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../**",
+				);
 				INFOPLIST_FILE = DMViewFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -341,6 +389,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../**",
+				);
 				INFOPLIST_FILE = DMViewFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -398,6 +450,7 @@
 				C3D8F00F1B4047DB00BF40FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3D8F0101B4047DB00BF40FF /* Build configuration list for PBXNativeTarget "DMViewFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +459,7 @@
 				C3D8F0121B4047DB00BF40FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
