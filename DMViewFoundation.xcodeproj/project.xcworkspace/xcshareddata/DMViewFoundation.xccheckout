@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C7BB08E-488A-4292-A5E0-BDA02AE3CEDF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DMViewFoundation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0807C5ADC066322A36B69427C4263E51D520EA99</key>
+		<string>https://github.com/DMDespegarCore/DMViewFoundation.git</string>
+		<key>845914F8C771F168D30D95F35D848D0DA271757E</key>
+		<string>https://github.com/DMDespegarCore/DMTrackFoundation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DMViewFoundation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0807C5ADC066322A36B69427C4263E51D520EA99</key>
+		<string>../..</string>
+		<key>845914F8C771F168D30D95F35D848D0DA271757E</key>
+		<string>../../../DMTrackFoundation</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DMDespegarCore/DMViewFoundation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0807C5ADC066322A36B69427C4263E51D520EA99</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>845914F8C771F168D30D95F35D848D0DA271757E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMTrackFoundation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0807C5ADC066322A36B69427C4263E51D520EA99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMViewFoundation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
